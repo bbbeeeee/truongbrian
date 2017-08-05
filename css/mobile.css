@@ -89,7 +89,8 @@ h1#logo				{  height:100%; width:100%;
 }
 
 body {
-font-family:bebas_neueregular;	
+font-family:bebas_neueregular;
+overflow: hidden;
 }
 
 ul {
