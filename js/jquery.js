@@ -25,7 +25,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 
 $(document).ready(function() {  
 		$('a.link').click(function () {  
-			$('#container').scrollTo($(this).attr('href'), 800);
+			$('#container').scrollTo($(this).attr('href'), 500);
 			setPosition($(this).attr('href'), '#cloud1', '0px', '400px', '800px', '1200px')
 			setPosition($(this).attr('href'), '#cloud2', '0px', '800px', '1600px', '2400px')
 			$('a.link').removeClass('selected');  

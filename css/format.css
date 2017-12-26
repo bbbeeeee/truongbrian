@@ -36,17 +36,28 @@ footer, header, hgroup, menu, nav, section {
 
 
 
-h1	{  height:100%; width:100%;
-						 position:absolute; 
-						 top:10px; 
-						 left:20px; 
-						 font-size:110px;
-						 color:#3B6AA0;}
+h1	{  	
+	height:100%; 
+	width:100%;
+	position:relative; 
+	top:50px; 
+	right:25px; 
+	font-size:35px;
+	color:#000000;
+	text-align: right;
+}
 
-#nav	{ float:right; position:absolute; top:40px; right:10px; z-index:10; }
+
+#nav	{ 
+	float:right; 
+	position:absolute; 
+	top:100px; 
+	right:10px; 
+	z-index:10; 
+	}
 
 #nav a	{  color:#839298;  text-decoration:none; padding:5px;
-						margin-right:10px; font-size:45px; }
+						margin-right:10px; font-size:35px; }
 					
 #nav a:hover	{  color:#EEAD0E; border-bottom:#EEAD0E 5px solid; text-decoration:none; padding:5px;
 						margin-right:10px; }
@@ -63,27 +74,23 @@ h1	{  height:100%; width:100%;
 
 .box		{ width:25%; height:100%; float:left; }
 
-.content	{ width:960px; height:400px; top:20%; margin: 0 auto; position:relative; }
+.content	{ width:500px; height:400px; top:20%; margin: 0 auto; position:relative; }
 				
 
 					
 /*************************************
 ************MAIN**********************/
 
-@font-face {
-    font-family: 'bebas_neueregular';
-    src: url('../fonts/bebasneue_regular_macroman/BebasNeue-webfont.eot');
-    src: url('../fonts/bebasneue_regular_macroman/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_regular_macroman/BebasNeue-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_regular_macroman/BebasNeue-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_regular_macroman/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+/*@font-face {
+    font-family: 'work';
+    src: url('../fonts/frontage/front.otf');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 body {
-font-family:bebas_neueregular;	
+font-family:'Scope One', serif;	
 }
 
 ul {
@@ -91,16 +98,18 @@ list-style-type:none;
 }
 
 ul.portfoliolist {
-	font-size:55px;
-	margin: 30px 0 0 0;
+	font-size:20px;
+	margin: 20px 0 0 0;
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 a {
-	font-size:30px;
+	font-size:20px;
 }
 
 a.portfoliolinks {
-	font-size:55px;
+	font-size:20px;
 	color:#839298;	
 	text-decoration:none;
 }
