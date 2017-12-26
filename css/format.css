@@ -150,6 +150,18 @@ p.attribute a {
 	text-decoration:none;
 }
 
+/*small screens*/
+@media only screen  
+and (max-device-width : 800px) 
+{ 
+#container	{ width:100%; height:1080px; position:absolute; top:0; left:0; o }
+	
+
+li {
+	font-size:25px;
+}
+}
+
 
 /*iphone5 landscape*/
 @media only screen 
