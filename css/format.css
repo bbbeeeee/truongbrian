@@ -160,6 +160,9 @@ and (max-device-width : 800px)
 li {
 	font-size:25px;
 }
+a.portfoliolinks{
+	font-size:25px;
+}
 }
 
 
