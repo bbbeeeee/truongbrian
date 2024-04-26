@@ -51,9 +51,9 @@ h1	{
 #nav	{ 
 	float:none; 
 	position:absolute; 
- 	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+	top:100px; 
+	left:50%;
+	text-align: center;
 	}
 
 #nav a	{  color:#839298;  text-decoration:none; padding:5px;
