@@ -52,7 +52,7 @@ h1	{
 	float:none; 
 	position:absolute; 
 	top:100px; 
-	left:250px; 
+	left:50%; 
 	z-index:10; 
 	}
 
