@@ -49,7 +49,7 @@ h1	{
 
 
 #nav	{ 
-	float:none; 
+	margin:auto; 
 	position:absolute; 
 	top:100px; 
 	right:0px;
