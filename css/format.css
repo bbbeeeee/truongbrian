@@ -49,11 +49,11 @@ h1	{
 
 
 #nav	{ 
-	float:none; 
+	float:right; 
 	position:absolute; 
 	top:100px; 
-	left:50%;
-	text-align: center;
+	right:10px; 
+	z-index:10; 
 	}
 
 #nav a	{  color:#839298;  text-decoration:none; padding:5px;
